@@ -1,0 +1,35 @@
+﻿@model IList<Netchemia.Model.Student>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Student Details</title>
+</head>
+<body>
+    <div id="replace">
+        <table style="width: 100%; height: 100%">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Address</th>
+                <th>Phone Number</th>
+                <th>Student Type</th>
+            </tr>
+            @foreach (var s in Model)
+            {
+                <tr>
+                    <td> @s.FirstName</td>
+                    <td> @s.LastName</td>
+                    <td> @s.Address</td>
+                    <td> @s.PhoneNumber</td>
+                    <td> @s.StudentType</td>
+                </tr>
+            }                
+        </table> 
+    </div>
+</body>
+</html>

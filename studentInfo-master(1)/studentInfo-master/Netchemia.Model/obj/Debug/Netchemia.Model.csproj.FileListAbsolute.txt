@@ -1,0 +1,10 @@
+c:\dev\Netchemia\Netchemia.Model\bin\Debug\Netchemia.Model.dll
+c:\dev\Netchemia\Netchemia.Model\bin\Debug\Netchemia.Model.pdb
+c:\dev\Netchemia\Netchemia.Model\obj\Debug\Netchemia.Model.dll
+c:\dev\Netchemia\Netchemia.Model\obj\Debug\Netchemia.Model.pdb
+c:\dev\Netchemia\Netchemia.Model\obj\Debug\Netchemia.Model.csprojResolveAssemblyReference.cache
+C:\dev\StudentINFO\studentInfo-master(1)\studentInfo-master\Netchemia.Model\bin\Debug\Netchemia.Model.dll
+C:\dev\StudentINFO\studentInfo-master(1)\studentInfo-master\Netchemia.Model\bin\Debug\Netchemia.Model.pdb
+C:\dev\StudentINFO\studentInfo-master(1)\studentInfo-master\Netchemia.Model\obj\Debug\Netchemia.Model.csprojResolveAssemblyReference.cache
+C:\dev\StudentINFO\studentInfo-master(1)\studentInfo-master\Netchemia.Model\obj\Debug\Netchemia.Model.dll
+C:\dev\StudentINFO\studentInfo-master(1)\studentInfo-master\Netchemia.Model\obj\Debug\Netchemia.Model.pdb

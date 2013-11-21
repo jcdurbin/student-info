@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<!DOCTYPE html>
+<header>
+    <div class="net-header">
+        <h1>Netchemia - Developer Workset</h1>
+    </div>
+</header>
+<html>
+<head>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#ajbutton').click(function () {
+                $.ajax({
+                    url: "/home/GetStudentInfo",
+                    contentType: 'application/html; charset=utf-8',
+                    type: 'GET',
+                    dataType: 'html',
+                })
+                .success(function (result) {
+                    $('#replace').hide();
+                    $('#studentDetails').show();
+                    $('#studentDetails').html(result);
+                })
+                    
+                });
+            });
+        
+    </script>
+</head>
+
+<body>
+
+    <div id="body">
+        <section class="content-wrapper main-content clear-fix">
+            <h2>Student Information</h2>
+            <div id="replace" style="height: 400px; width: 70%">
+                <br />
+                This is where the student info will load.
+            </div>
+            <div id="studentDetails" style="height: 400px; width: 70%; display:none">
+          
+            </div>
+            <input type="button" id="ajbutton" value="Load Students" />
+        </section>
+    </div>
+
+</body>
+</html>
+

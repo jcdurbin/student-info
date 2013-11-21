@@ -1,0 +1,22 @@
+﻿@model Netchemia.Web.Models.MainPage
+@using Netchemia.Web;
+@{
+    ViewBag.Title = "Netchemia - Student Exercise";
+}
+
+
+<div class="container">
+    <!-- Students -->
+    @foreach (var stud in Model.Students)
+    {
+        <h2>@stud.FirstName  @stud.LastName</h2>   
+        <div class="student-info">
+        <p>Student ID#: @stud.StudentId</p>
+        <p>Phone Number: @stud.PhoneNumber</p>
+        <p>Address: @stud.Address</p>
+        <p>Student Type: @stud.StudentType</p>
+        </div>   
+
+    }
+</div>
+

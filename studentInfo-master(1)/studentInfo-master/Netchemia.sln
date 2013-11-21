@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netchemia.Web", "Netchemia\Netchemia.Web.csproj", "{43C7568D-2179-4981-B1DC-4EB9AE7FD720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netchemia.Data", "ClassLibrary1\Netchemia.Data.csproj", "{E0CAB20D-639C-4B5B-9FE0-297F7DE17200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netchemia.Model", "Netchemia.Model\Netchemia.Model.csproj", "{2489FD51-BFAC-436B-87A6-BEBD740E61E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43C7568D-2179-4981-B1DC-4EB9AE7FD720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C7568D-2179-4981-B1DC-4EB9AE7FD720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C7568D-2179-4981-B1DC-4EB9AE7FD720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C7568D-2179-4981-B1DC-4EB9AE7FD720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0CAB20D-639C-4B5B-9FE0-297F7DE17200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CAB20D-639C-4B5B-9FE0-297F7DE17200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CAB20D-639C-4B5B-9FE0-297F7DE17200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CAB20D-639C-4B5B-9FE0-297F7DE17200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2489FD51-BFAC-436B-87A6-BEBD740E61E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2489FD51-BFAC-436B-87A6-BEBD740E61E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2489FD51-BFAC-436B-87A6-BEBD740E61E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2489FD51-BFAC-436B-87A6-BEBD740E61E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
